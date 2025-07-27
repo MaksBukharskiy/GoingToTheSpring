@@ -3,7 +3,7 @@ package Example;
 import org.springframework.stereotype.Component;
 
 @Component
-public class Cat {
+public class CatComponent {
     private String name = "Barsik";
 
     public String getname(){
