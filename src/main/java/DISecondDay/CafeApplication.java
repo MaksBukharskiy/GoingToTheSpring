@@ -10,6 +10,6 @@ public class CafeApplication {
         ApplicationContext context = new AnnotationConfigApplicationContext(CafeConfiguration.class);
         Customer customer = context.getBean("customer", Customer.class);
 
-        customer.order("Pizza and salad");
+        customer.order(" Pizza and salad");
     }
 }
