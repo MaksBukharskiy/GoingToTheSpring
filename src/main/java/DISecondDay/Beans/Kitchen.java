@@ -1,8 +1,9 @@
 package DISecondDay.Beans;
 
 import org.springframework.stereotype.Component;
+import org.springframework.stereotype.Service;
 
-@Component
+@Service
 public class Kitchen {
 
     public void cook(String order){

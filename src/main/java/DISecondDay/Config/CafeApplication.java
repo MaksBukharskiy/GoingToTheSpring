@@ -1,7 +1,6 @@
-package DISecondDay;
+package DISecondDay.Config;
 
 import DISecondDay.Beans.Customer;
-import DISecondDay.Config.CafeConfiguration;
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
 
