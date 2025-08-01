@@ -9,7 +9,9 @@ public class Main {
         try(AnnotationConfigApplicationContext context = new AnnotationConfigApplicationContext(InfoConfiguration.class)) {
 
             MyService service = context.getBean(MyService.class);
+
             service.printInfo();
+            service.printPrice();
 
         }
     }
