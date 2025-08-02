@@ -3,6 +3,7 @@ package SpringCoreFourthDay.GoingIntoTheBeans.Service;
 import SpringCoreFourthDay.GoingIntoTheBeans.Repository.Info;
 import SpringCoreFourthDay.GoingIntoTheBeans.Repository.Price;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.stereotype.Service;
 
 @Service
@@ -11,7 +12,7 @@ public class MyService {
     private final Price price;
 
     @Autowired
-    public MyService(Info info, Price price) {
+    public MyService(@Qualifier("appInfo") Info info, @Qualifier("yourPrice") Price price) {
         this.info = info;
         this.price = price;
     }
