@@ -5,8 +5,8 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.stereotype.Service;
 
-import javax.annotation.PostConstruct;
-import javax.annotation.PreDestroy;
+//import javax.annotation.PostConstruct;
+//import javax.annotation.PreDestroy;
 
 @Service
 public class AppService{
@@ -17,12 +17,12 @@ public class AppService{
         this.dataBase = dataBase;
     }
 
-    @PostConstruct
+//    @PostConstruct
     public void init() {
         System.out.println("🟢 Сервис инициализирован");
     }
 
-    @PreDestroy
+//    @PreDestroy
     public void cleanup() {
         System.out.println("🔴 Сервис завершает работу");
     }
