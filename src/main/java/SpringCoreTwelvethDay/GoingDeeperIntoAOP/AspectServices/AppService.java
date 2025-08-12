@@ -1,4 +1,4 @@
-package SpringCoreTwelvethDay.GoingDeeperIntoAOP;
+package SpringCoreTwelvethDay.GoingDeeperIntoAOP.AspectServices;
 
 import org.springframework.stereotype.Service;
 
