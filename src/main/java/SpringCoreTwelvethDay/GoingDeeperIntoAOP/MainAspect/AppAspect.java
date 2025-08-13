@@ -1,10 +1,7 @@
 package SpringCoreTwelvethDay.GoingDeeperIntoAOP.MainAspect;
 
 import org.aspectj.lang.JoinPoint;
-import org.aspectj.lang.annotation.After;
-import org.aspectj.lang.annotation.AfterReturning;
-import org.aspectj.lang.annotation.Aspect;
-import org.aspectj.lang.annotation.Before;
+import org.aspectj.lang.annotation.*;
 import org.springframework.stereotype.Component;
 
 @Aspect
@@ -26,10 +23,17 @@ public class AppAspect {
             returning = "result"
     )
 
-
- 
     public void afterReturning(JoinPoint joinPoint, Object result) {
         System.out.println("After Returning" + result);
+    }
+
+    @AfterThrowing(
+            pointcut = "execution(* SpringCoreTwelvethDay.GoingDeeperIntoAOP.AspectServices.AppService.startEngine(..))",
+            throwing = "ex"
+    )
+
+    public void afterThrowing(JoinPoint joinPoint, Throwable ex) {
+        System.out.println("After Throwing" + ex.getMessage());
     }
 
 }
