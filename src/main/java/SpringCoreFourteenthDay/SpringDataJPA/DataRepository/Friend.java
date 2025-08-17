@@ -10,20 +10,20 @@ public class Friend {
 
     @Id
     @GeneratedValue
-    private int id;
-    private String firstName;
+    private Long id;
 
+    private String firstName;
     public Friend(){}
 
     public Friend(String firstName) {
         this.firstName = firstName;
     }
 
-    public int getId() {
+    public Long getId() {
         return id;
     }
 
-    public void setId(int id) {
+    public void setId(Long id) {
         this.id = id;
     }
 
@@ -33,5 +33,13 @@ public class Friend {
 
     public void setFirstName(String firstName) {
         this.firstName = firstName;
+    }
+
+    @Override
+    public String toString() {
+        return "Friend{" +
+                "id=" + id +
+                ", firstName='" + firstName + '\'' +
+                '}';
     }
 }
