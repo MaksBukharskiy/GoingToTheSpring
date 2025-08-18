@@ -11,6 +11,8 @@ import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.ComponentScan;
 import org.springframework.data.jpa.repository.config.EnableJpaRepositories;
 
+import java.util.stream.Stream;
+
 @SpringBootApplication(exclude = {TaskSchedulingAutoConfiguration.class})
 @ComponentScan(basePackages = "SpringCoreFourteenthDay.SpringDataJPA")
 @EntityScan(basePackages = "SpringCoreFourteenthDay.SpringDataJPA.DataRepository")
