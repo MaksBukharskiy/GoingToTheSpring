@@ -29,8 +29,16 @@ public class Main {
             friendRepository.save(new Friend("John"));
             friendRepository.save(new Friend("Jane"));
 
+            System.out.println("");
+            friendRepository.findByFirstName("John").stream()
+                    .forEach(a -> {
+                        String s = a + " is done";
+                        System.out.println(s + "\n");
+                    });
+
             System.out.println("All friends:");
             friendRepository.findAll().forEach(System.out::println);
+            System.out.println("");
         };
     }
 }

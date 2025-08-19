@@ -2,7 +2,6 @@ package SpringCoreFourteenthDay.SpringDataJPA.DataRepository;
 
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
-import jakarta.persistence.GenerationType;
 import jakarta.persistence.Id;
 
 @Entity
@@ -13,6 +12,7 @@ public class Friend {
     private Long id;
 
     private String firstName;
+
     public Friend(){}
 
     public Friend(String firstName) {
