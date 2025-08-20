@@ -12,13 +12,12 @@ public class UserDatabase {
     private long Id;
 
     private String username;
-    private String password;
 
-    public UserDatabase() {}
+    public UserDatabase() {
+    }
 
-    public UserDatabase(String username, String password) {
+    public UserDatabase(String username) {
         this.username = username;
-        this.password = password;
     }
 
     public long getId() {
@@ -39,20 +38,11 @@ public class UserDatabase {
     }
 
 
-    public String getPassword() {
-        return password;
-    }
-
-    public void setPassword(String password) {
-        this.password = password;
-    }
-
-
     @Override
     public String toString() {
-        return "UserDatabase [Id=" + Id +
+        return "UserDatabase [" +
+                "Id=" + Id +
                 ", username=" + username
-                + ", password="
-                + password + "]";
+                + "]";
     }
 }
