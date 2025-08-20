@@ -1,7 +1,44 @@
 package SpringBootFifteenthDay.SpringDataGPAPracticing.UserService;
 
+import SpringBootFifteenthDay.SpringDataGPAPracticing.Repository.UserDatabase;
+import SpringBootFifteenthDay.SpringDataGPAPracticing.Repository.UsersRepository;
+import SpringCoreFourteenthDay.SpringDataJPA.DataRepository.Friend;
+import SpringCoreFourteenthDay.SpringDataJPA.DataRepository.FriendRepository;
+import org.springframework.boot.autoconfigure.security.SecurityProperties;
 import org.springframework.stereotype.Service;
+import org.springframework.transaction.annotation.Transactional;
+
+import java.util.List;
+import java.util.Optional;
 
 @Service
 public class FriendService {
+
+    private final UsersRepository usersRepository;
+
+    public FriendService(UsersRepository usersRepository) {
+        this.usersRepository = usersRepository;
+    }
+
+    @Transactional
+    public UserDatabase createUser(String username){
+        if(username == null || username.isEmpty()){
+            throw new IllegalArgumentException("Username cannot be null or empty");
+        }
+
+        UserDatabase user = new UserDatabase(username.trim());
+        return usersRepository.save(user);
+    }
+
+    @Transactional(readOnly = true)
+    public Optional<UserDatabase> findById(Long id){
+        return usersRepository.findById(id);
+    }
+
+    @Transactional(readOnly = true)
+    public List<UserDatabase> findAll(){
+        final List<UserDatabase> users = usersRepository.findAll();
+        return users;
+    }
+
 }
