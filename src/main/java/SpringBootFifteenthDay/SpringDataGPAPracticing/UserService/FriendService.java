@@ -21,12 +21,13 @@ public class FriendService {
     }
 
     @Transactional
-    public UserDatabase createUser(String username){
-        if(username == null || username.isEmpty()){
+    public UserDatabase createUser(String username, Integer password) {
+        if(username == null || username.isEmpty() || password == null) {
             throw new IllegalArgumentException("Username cannot be null or empty");
         }
 
-        UserDatabase user = new UserDatabase(username.trim());
+        UserDatabase user = new UserDatabase(username.trim(), password);
+
         return usersRepository.save(user);
     }
 
@@ -39,6 +40,13 @@ public class FriendService {
     public List<UserDatabase> findAll(){
         final List<UserDatabase> users = usersRepository.findAll();
         return users;
+    }
+
+    @Transactional(readOnly = true)
+    public Optional<UserDatabase> findByPassword(Integer password){
+        final List<UserDatabase> usersFoundByPassword =  usersRepository.findByPassword(password);
+        return usersFoundByPassword.stream()
+                .findFirst();
     }
 
 }
