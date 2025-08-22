@@ -9,15 +9,17 @@ public class UserDatabase {
 
     @Id
     @GeneratedValue
-    private long Id;
+    private Long Id;
 
     private String username;
+    private Integer password;
 
     public UserDatabase() {
     }
 
-    public UserDatabase(String username) {
+    public UserDatabase(String username, Integer password) {
         this.username = username;
+        this.password = password;
     }
 
     public long getId() {
@@ -37,12 +39,20 @@ public class UserDatabase {
         this.username = username;
     }
 
+    public Integer getPassword() {
+        return password;
+    }
+
+    public void setPassword(Integer password) {
+        this.password = password;
+    }
+
 
     @Override
     public String toString() {
         return "UserDatabase [" +
                 "Id=" + Id +
-                ", username=" + username
-                + "]";
+                ", username=" + username +
+                ", password=" + password + "]";
     }
 }
