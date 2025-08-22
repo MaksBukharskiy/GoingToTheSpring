@@ -45,6 +45,9 @@ public class Main {
             System.out.println("\nLets find by ID:");
             friendService.findById(4L).ifPresent(System.out::println);
 
+            System.out.println("\nLets find users ID greater than:");
+            friendService.findByIdGreaterThan(1L).forEach(System.out::println);
+
             System.out.println("\nLets show all users:");
             friendService.findAll().forEach(System.out::println);
             System.out.println("");

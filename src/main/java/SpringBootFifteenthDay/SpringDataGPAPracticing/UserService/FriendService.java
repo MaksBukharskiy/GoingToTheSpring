@@ -43,6 +43,11 @@ public class FriendService {
     }
 
     @Transactional(readOnly = true)
+    public List<UserDatabase> findByIdGreaterThan(Long id){
+        return usersRepository.findByUsernameGreaterThanId(id);
+    }
+
+    @Transactional(readOnly = true)
     public Optional<UserDatabase> findByPassword(Integer password){
         final List<UserDatabase> usersFoundByPassword =  usersRepository.findByPassword(password);
         return usersFoundByPassword.stream()
