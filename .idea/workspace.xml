@@ -1,0 +1,399 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="4f1bbc6a-37ef-48c0-b95c-20dcd2943516" name="Changes" comment="feat: Add Page&lt;User&gt; findAll(Pageable pageable) to support pagination in user queries.">
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/AlgorithmsAndDataStructures/Day1/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/AlgorithmsAndDataStructures/LeetCode/SocksPair/Main.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;MaksBukharskiy&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/MaksBukharskiy/GoingToTheSpring&quot;,
+    &quot;accountId&quot;: &quot;a452e471-4d86-439f-a135-49be079c0dc0&quot;
+  }
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;customColor&quot;: &quot;&quot;,
+  &quot;associatedIndex&quot;: 8
+}</component>
+  <component name="ProjectId" id="31NeSWAa6NE9Dquw347G4dz5GTc" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.AlgorithmsAndDataStructures.Day1.Main.executor": "Run",
+    "Application.Main.executor": "Run",
+    "Application.MainApp.executor": "Run",
+    "Application.TwoSums.TwoSum.Main.executor": "Debug",
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "Spring Boot.Main (1).executor": "Run",
+    "Spring Boot.Main.executor": "Run",
+    "git-widget-placeholder": "main",
+    "junie.onboarding.icon.badge.shown": "true",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "/Users/frdmlvver/Desktop/Java/IdeaProjects/maksBukharskiySpringBoot2/GoingToTheSpringCore",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "MavenSettings",
+    "to.speed.mode.migration.done": "true",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Admin\Desktop\IdeaProjects\maksBukharskiySpringBoot2\GoingToTheSpringCore\src\main\java\SpringCoreFourteenthDay\SpringDataJPA\MainApp" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.TwoSums.TwoSum.Main">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="SpringCoreFourteenthDay.SpringDataJPA.MainApp.Main" />
+      <module name="GoingToTheSpringCore" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="SpringCoreFourteenthDay.SpringDataJPA.MainApp.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TwoSums.TwoSum.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="TwoSums.TwoSum.Main" />
+      <module name="GoingToTheSpringCore" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="TwoSums.TwoSum.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="GoingToTheSpringCore" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="SpringBootSixteenthDay.PaginationLearning.Resources.Main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="SpringBootSixteenthDay.PaginationLearning.Resources.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="GoingToTheSpringCore" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="SpringBootFifteenthDay.SpringDataGPAPracticing.MainApp.Main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="SpringBootFifteenthDay.SpringDataGPAPracticing.MainApp.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.TwoSums.TwoSum.Main" />
+        <item itemvalue="Spring Boot.Main" />
+        <item itemvalue="Application.Main" />
+        <item itemvalue="Spring Boot.Main (1)" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-9823dce3aa75-bf35d07a577b-intellij.indexing.shared.core-IU-252.25557.131" />
+        <option value="bundled-js-predefined-d6986cc7102b-b598e85cdad2-JavaScript-IU-252.25557.131" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="4f1bbc6a-37ef-48c0-b95c-20dcd2943516" name="Changes" comment="" />
+      <created>1755368957947</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1755368957947</updated>
+      <workItem from="1755368959113" duration="2522000" />
+      <workItem from="1755420467848" duration="2112000" />
+      <workItem from="1755422611650" duration="2332000" />
+      <workItem from="1755452483009" duration="964000" />
+      <workItem from="1755536192548" duration="1336000" />
+      <workItem from="1755585154492" duration="5002000" />
+      <workItem from="1755594211162" duration="73000" />
+      <workItem from="1755619429741" duration="6313000" />
+      <workItem from="1755711044915" duration="2924000" />
+      <workItem from="1755783353283" duration="152000" />
+      <workItem from="1755783686945" duration="536000" />
+      <workItem from="1755879713183" duration="3210000" />
+      <workItem from="1755885088246" duration="301000" />
+      <workItem from="1756063652463" duration="576000" />
+      <workItem from="1756065270220" duration="3492000" />
+      <workItem from="1756195436775" duration="928000" />
+      <workItem from="1756196411621" duration="12000" />
+      <workItem from="1756203187850" duration="1628000" />
+      <workItem from="1756296419763" duration="9000" />
+      <workItem from="1756322424037" duration="9000" />
+      <workItem from="1756322450746" duration="12000" />
+      <workItem from="1756495191883" duration="44000" />
+      <workItem from="1757095391878" duration="91000" />
+      <workItem from="1765874915334" duration="357000" />
+      <workItem from="1765875290016" duration="6400000" />
+    </task>
+    <task id="LOCAL-00001" summary="Add dependencies for Spring Data JPA, Hibernate, H2, and JPA API to enable database operations.">
+      <option name="closed" value="true" />
+      <created>1755370638652</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1755370638652</updated>
+    </task>
+    <task id="LOCAL-00002" summary="feat:Define User entity with @Entity, @Id, and fields for persistence using JPA.">
+      <option name="closed" value="true" />
+      <created>1755371424794</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1755371424794</updated>
+    </task>
+    <task id="LOCAL-00003" summary="feat: Create UserRepository extending JpaRepository for CRUD operations without writing SQL.">
+      <option name="closed" value="true" />
+      <created>1755371451173</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1755371451173</updated>
+    </task>
+    <task id="LOCAL-00004" summary="feat: Fix toString and enable H2 console for database inspection">
+      <option name="closed" value="true" />
+      <created>1755452845184</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1755452845184</updated>
+    </task>
+    <task id="LOCAL-00005" summary="feat: Fix pom and application.properties">
+      <option name="closed" value="true" />
+      <created>1755452878449</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1755452878449</updated>
+    </task>
+    <task id="LOCAL-00006" summary="feat: repeat topic of Spring Data JPA, understood all of it">
+      <option name="closed" value="true" />
+      <created>1755538029740</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1755538029740</updated>
+    </task>
+    <task id="LOCAL-00007" summary="feat: Configure H2, JPA DDL and enable console for database inspection.">
+      <option name="closed" value="true" />
+      <created>1755590749203</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1755590749203</updated>
+    </task>
+    <task id="LOCAL-00008" summary="feat: understood, how to write method in FriendRepository, which generares SQL request, how to work with it">
+      <option name="closed" value="true" />
+      <created>1755590875518</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1755590875518</updated>
+    </task>
+    <task id="LOCAL-00009" summary="feat: decided to start repeat Soring Data JPA mini program">
+      <option name="closed" value="true" />
+      <created>1755623075213</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1755623075213</updated>
+    </task>
+    <task id="LOCAL-00010" summary="feat: decided to start repeat Soring Data JPA mini program">
+      <option name="closed" value="true" />
+      <created>1755623234653</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1755623234653</updated>
+    </task>
+    <task id="LOCAL-00011" summary="feat: Exclude TaskSchedulingAutoConfiguration to fix startup error and use UserService for demo.">
+      <option name="closed" value="true" />
+      <created>1755715379654</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1755715379654</updated>
+    </task>
+    <task id="LOCAL-00012" summary="feat: implement user creation and retrieval logic.">
+      <option name="closed" value="true" />
+      <created>1755715395759</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1755715395759</updated>
+    </task>
+    <task id="LOCAL-00013" summary="feat: Fix JPA entity: change id from long Id to Long id for proper Hibernate mapping.">
+      <option name="closed" value="true" />
+      <created>1755715425892</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1755715425892</updated>
+    </task>
+    <task id="LOCAL-00014" summary="feat: Define JPA repository for UserDatabase with findByUsername method.">
+      <option name="closed" value="true" />
+      <created>1755715444626</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1755715444626</updated>
+    </task>
+    <task id="LOCAL-00015" summary="feat: Use UserService to create, find and list users with password search.">
+      <option name="closed" value="true" />
+      <created>1755880763984</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1755880763984</updated>
+    </task>
+    <task id="LOCAL-00016" summary="feat: Rename from FriendService and implement user logic with password search.">
+      <option name="closed" value="true" />
+      <created>1755880785742</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1755880785742</updated>
+    </task>
+    <task id="LOCAL-00017" summary="feat: Rename from UserDatabase and fix id to Long for JPA compatibility.">
+      <option name="closed" value="true" />
+      <created>1755880814083</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1755880814083</updated>
+    </task>
+    <task id="LOCAL-00018" summary="feat: Add findByPassword(Integer) returning Optional for safe user lookup.">
+      <option name="closed" value="true" />
+      <created>1755880834368</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1755880834368</updated>
+    </task>
+    <task id="LOCAL-00019" summary="feat: Implement custom JPQL query to find users by age using @Query and @Param. Add service method and test via CommandLineRunner.Demonstrates type-safe, database-agnostic querying with Spring Data JPA and proper separation of concerns between repository, service, and application layers.">
+      <option name="closed" value="true" />
+      <created>1755883054891</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1755883054891</updated>
+    </task>
+    <task id="LOCAL-00020" summary="feat: Enable H2 console and SQL logging for database inspection and debugging.">
+      <option name="closed" value="true" />
+      <created>1756068301039</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1756068301039</updated>
+    </task>
+    <task id="LOCAL-00021" summary="feat: Fix Pageable import and variable conflicts. Implement pagination demo with user creation and page loop.">
+      <option name="closed" value="true" />
+      <created>1756068318029</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1756068318029</updated>
+    </task>
+    <task id="LOCAL-00022" summary="feat: Define JPA entity User with id, username, and age for database persistence.">
+      <option name="closed" value="true" />
+      <created>1756068350212</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1756068350212</updated>
+    </task>
+    <task id="LOCAL-00023" summary="feat: Add Page&lt;User&gt; findAll(Pageable pageable) to support pagination in user queries.">
+      <option name="closed" value="true" />
+      <created>1756068367733</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1756068367733</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Add dependencies for Spring Data JPA, Hibernate, H2, and JPA API to enable database operations." />
+    <MESSAGE value="feat:Define User entity with @Entity, @Id, and fields for persistence using JPA." />
+    <MESSAGE value="feat: Create UserRepository extending JpaRepository for CRUD operations without writing SQL." />
+    <MESSAGE value="feat: Fix toString and enable H2 console for database inspection" />
+    <MESSAGE value="feat: Fix pom and application.properties" />
+    <MESSAGE value="feat: repeat topic of Spring Data JPA, understood all of it" />
+    <MESSAGE value="feat: Configure H2, JPA DDL and enable console for database inspection." />
+    <MESSAGE value="feat: understood, how to write method in FriendRepository, which generares SQL request, how to work with it" />
+    <MESSAGE value="feat: decided to start repeat Soring Data JPA mini program" />
+    <MESSAGE value="feat: Exclude TaskSchedulingAutoConfiguration to fix startup error and use UserService for demo." />
+    <MESSAGE value="feat: implement user creation and retrieval logic." />
+    <MESSAGE value="feat: Fix JPA entity: change id from long Id to Long id for proper Hibernate mapping." />
+    <MESSAGE value="feat: Define JPA repository for UserDatabase with findByUsername method." />
+    <MESSAGE value="feat: Use UserService to create, find and list users with password search." />
+    <MESSAGE value="feat: Rename from FriendService and implement user logic with password search." />
+    <MESSAGE value="feat: Rename from UserDatabase and fix id to Long for JPA compatibility." />
+    <MESSAGE value="feat: Add findByPassword(Integer) returning Optional for safe user lookup." />
+    <MESSAGE value="feat: Implement custom JPQL query to find users by age using @Query and @Param. Add service method and test via CommandLineRunner.Demonstrates type-safe, database-agnostic querying with Spring Data JPA and proper separation of concerns between repository, service, and application layers." />
+    <MESSAGE value="feat: Enable H2 console and SQL logging for database inspection and debugging." />
+    <MESSAGE value="feat: Fix Pageable import and variable conflicts. Implement pagination demo with user creation and page loop." />
+    <MESSAGE value="feat: Define JPA entity User with id, username, and age for database persistence." />
+    <MESSAGE value="feat: Add Page&lt;User&gt; findAll(Pageable pageable) to support pagination in user queries." />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: Add Page&lt;User&gt; findAll(Pageable pageable) to support pagination in user queries." />
+  </component>
+</project>
