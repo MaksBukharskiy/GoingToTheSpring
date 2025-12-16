@@ -1,6 +1,6 @@
 package SpringBootSixteenthDay.PaginationLearning.Resources;
 
-import SpringBootSixteenthDay.PaginationLearning.Repository.User;
+import SpringBootSixteenthDay.PaginationLearning.Repository.NewUser;
 import SpringBootSixteenthDay.PaginationLearning.Repository.UserRepository;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.boot.SpringApplication;
@@ -13,12 +13,8 @@ import org.springframework.data.domain.PageRequest;
 import org.springframework.data.jpa.repository.config.EnableJpaRepositories;
 
 import org.springframework.data.domain.Pageable;
-import org.springframework.data.domain.PageRequest;
 
 @SpringBootApplication
-@ComponentScan(basePackages = "SpringBootSixteenthDay.PaginationLearning")
-@EntityScan(basePackages = "SpringBootSixteenthDay.PaginationLearning.Repository")
-@EnableJpaRepositories(basePackages = "SpringBootSixteenthDay.PaginationLearning.Repository")
 public class Main {
 
     public static void main(String[] args) {
@@ -30,12 +26,12 @@ public class Main {
     public CommandLineRunner demo(UserRepository userRepository) {
         return args -> {
 
-            User user1 = new User("freedom_lovver", 16);
-            User user2 = new User("mike666", 46);
-            User user3 = new User("frver", 23);
-            User user4 = new User("miles", 54);
-            User user5 = new User("nelly", 12);
-            User user6 = new User("felian111", 54);
+            NewUser user1 = new NewUser("freedom_lovver", 16);
+            NewUser user2 = new NewUser("mike666", 46);
+            NewUser user3 = new NewUser("frver", 23);
+            NewUser user4 = new NewUser("miles", 54);
+            NewUser user5 = new NewUser("nelly", 12);
+            NewUser user6 = new NewUser("felian111", 54);
 
             userRepository.save(user1);
             userRepository.save(user2);
@@ -51,7 +47,7 @@ public class Main {
             for (int page = 0; ; page++) {
 
                 Pageable pageable = PageRequest.of(page, pageSize);
-                Page<User> userPage = userRepository.findAll(pageable);
+                Page<NewUser> userPage = userRepository.findAll(pageable);
 
                 System.out.println("--- Страница " + page + " ---");
 

@@ -3,9 +3,10 @@ package SpringBootSixteenthDay.PaginationLearning.Repository;
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
 import jakarta.persistence.Id;
+import jakarta.persistence.Table;
 
 @Entity
-public class User {
+public class NewUser {
 
     @Id
     @GeneratedValue
@@ -14,9 +15,9 @@ public class User {
     private String username;
     private int age;
 
-    public User() {}
+    public NewUser() {}
 
-    public User(String username, int age) {
+    public NewUser(String username, int age) {
         this.username = username;
         this.age = age;
     }
