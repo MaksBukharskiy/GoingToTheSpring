@@ -5,8 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4f1bbc6a-37ef-48c0-b95c-20dcd2943516" name="Changes" comment="feat: Add Page&lt;User&gt; findAll(Pageable pageable) to support pagination in user queries.">
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/AlgorithmsAndDataStructures/Day1/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/AlgorithmsAndDataStructures/LeetCode/SocksPair/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/AnagramEasy/IsAnagram.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/AnagramEasy/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,9 +48,10 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Application.AlgorithmsAndDataStructures.Day1.Main.executor": "Run",
+    "Application.AnagramEasy.Main.executor": "Run",
     "Application.Main.executor": "Run",
     "Application.MainApp.executor": "Run",
-    "Application.TwoSums.TwoSum.Main.executor": "Debug",
+    "Application.TwoSums.TwoSum.Main.executor": "Run",
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "RequestMappingsPanelOrder0": "0",
     "RequestMappingsPanelOrder1": "1",
@@ -77,68 +79,6 @@
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\Admin\Desktop\IdeaProjects\maksBukharskiySpringBoot2\GoingToTheSpringCore\src\main\java\SpringCoreFourteenthDay\SpringDataJPA\MainApp" />
     </key>
-  </component>
-  <component name="RunManager" selected="Application.TwoSums.TwoSum.Main">
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="SpringCoreFourteenthDay.SpringDataJPA.MainApp.Main" />
-      <module name="GoingToTheSpringCore" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="SpringCoreFourteenthDay.SpringDataJPA.MainApp.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TwoSums.TwoSum.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="TwoSums.TwoSum.Main" />
-      <module name="GoingToTheSpringCore" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="TwoSums.TwoSum.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Main (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
-      <module name="GoingToTheSpringCore" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="SpringBootSixteenthDay.PaginationLearning.Resources.Main" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="SpringBootSixteenthDay.PaginationLearning.Resources.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Main" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
-      <module name="GoingToTheSpringCore" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="SpringBootFifteenthDay.SpringDataGPAPracticing.MainApp.Main" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="SpringBootFifteenthDay.SpringDataGPAPracticing.MainApp.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <recent_temporary>
-      <list>
-        <item itemvalue="Application.TwoSums.TwoSum.Main" />
-        <item itemvalue="Spring Boot.Main" />
-        <item itemvalue="Application.Main" />
-        <item itemvalue="Spring Boot.Main (1)" />
-      </list>
-    </recent_temporary>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>
@@ -179,7 +119,9 @@
       <workItem from="1756495191883" duration="44000" />
       <workItem from="1757095391878" duration="91000" />
       <workItem from="1765874915334" duration="357000" />
-      <workItem from="1765875290016" duration="6400000" />
+      <workItem from="1765875290016" duration="8649000" />
+      <workItem from="1765889781518" duration="750000" />
+      <workItem from="1765990634380" duration="897000" />
     </task>
     <task id="LOCAL-00001" summary="Add dependencies for Spring Data JPA, Hibernate, H2, and JPA API to enable database operations.">
       <option name="closed" value="true" />
