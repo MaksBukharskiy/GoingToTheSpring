@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4f1bbc6a-37ef-48c0-b95c-20dcd2943516" name="Changes" comment="feat: Add Page&lt;User&gt; findAll(Pageable pageable) to support pagination in user queries.">
-      <change afterPath="$PROJECT_DIR$/src/main/java/AnagramEasy/IsAnagram.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/AnagramEasy/Main.java" afterDir="false" />
+    <list default="true" id="4f1bbc6a-37ef-48c0-b95c-20dcd2943516" name="Changes" comment="feat: implement anagram validation via sorting approach&#10;&#10;Added isAnagramOrNot method using Arrays.sort() for character comparison.&#10;Solution converts strings to char arrays, sorts them, and checks equality.&#10;Time complexity O(n log n), space O(n). Simple and readable implementation&#10;for case-sensitive lowercase English letters validation.">
+      <change afterPath="$PROJECT_DIR$/src/main/java/FizzBuzz/FizzBuzz.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/FizzBuzz/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -61,6 +61,7 @@
     "RunOnceActivity.git.unshallow": "true",
     "Spring Boot.Main (1).executor": "Run",
     "Spring Boot.Main.executor": "Run",
+    "deletionFromPopupRequiresConfirmation": "false",
     "git-widget-placeholder": "main",
     "junie.onboarding.icon.badge.shown": "true",
     "kotlin-language-version-configured": "true",
@@ -70,7 +71,11 @@
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "MavenSettings",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "preferences.lookFeel",
+    "settings.editor.splitter.proportion": "0.1565691",
     "to.speed.mode.migration.done": "true",
     "vue.rearranger.settings.migration": "true"
   }
@@ -121,7 +126,13 @@
       <workItem from="1765874915334" duration="357000" />
       <workItem from="1765875290016" duration="8649000" />
       <workItem from="1765889781518" duration="750000" />
-      <workItem from="1765990634380" duration="897000" />
+      <workItem from="1765990634380" duration="1381000" />
+      <workItem from="1766054020827" duration="219000" />
+      <workItem from="1766054254483" duration="421000" />
+      <workItem from="1766054682897" duration="567000" />
+      <workItem from="1766055259061" duration="66000" />
+      <workItem from="1766055333239" duration="851000" />
+      <workItem from="1766164572705" duration="1370000" />
     </task>
     <task id="LOCAL-00001" summary="Add dependencies for Spring Data JPA, Hibernate, H2, and JPA API to enable database operations.">
       <option name="closed" value="true" />
