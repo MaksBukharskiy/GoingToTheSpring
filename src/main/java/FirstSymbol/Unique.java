@@ -7,7 +7,7 @@ public class Unique {
 
     public Character firstUniqueSymbol(String s){
 
-        if(s == null|| s.isEmpty()){
+        if(s == null || s.isEmpty()){
             return null;
         }
 
@@ -17,11 +17,12 @@ public class Unique {
             map.put(c, map.getOrDefault(c,0)+1);
         }
 
-        for(Map.Entry<Character, Integer> entry : map.entrySet()){
+        for(Map.Entry<Character, Integer> entry: map.entrySet()){
             if(entry.getValue() == 1){
                 return entry.getKey();
             }
         }
 
+        return null;
     }
 }

@@ -5,5 +5,7 @@ public class SymbolMain {
 
         Unique character = new Unique();
 
+        System.out.println(character.firstUniqueSymbol("abbccdd"));
+
     }
 }
